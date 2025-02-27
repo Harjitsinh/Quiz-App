@@ -1,0 +1,27 @@
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryVariant">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorBackground">#F5F5F5</color>
+    <color name="colorCardBackground">#FFFFFF</color>
+    <color name="colorNavigationBar">#E0E0E0</color>
+
+    <color name="black">#000000</color>
+    <color name="blue">#3498DB</color>
+
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#757575</color>
+
+    <color name="colorButton">#FF5722</color>
+    <color name="colorButtonText">#FFFFFF</color>
+
+    <color name="colorCorrect">#4CAF50</color>
+    <color name="colorIncorrect">#F44336</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <!-- Gradient Colors -->
+    <color name="gradientStart">#6A11CB</color>
+    <color name="gradientEnd">#2575FC</color>
+</resources>

@@ -1,0 +1,26 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Light Mode Theme -->
+    <style name="Theme.QuizApp" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Gradient Background for Light Mode -->
+        <item name="android:windowBackground">@drawable/gradient_bg</item>
+        <item name="android:navigationBarColor">@color/colorNavigationBar</item>
+        <item name="android:statusBarColor">@color/colorPrimaryVariant</item>
+
+        <!-- Text Colors -->
+        <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+        <item name="android:textColorSecondary">@color/colorTextSecondary</item>
+
+        <!-- Button Styling -->
+        <item name="android:buttonStyle">@style/QuizButton</item>
+    </style>
+
+    <!-- Button Style -->
+    <style name="QuizButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/colorButton</item>
+        <item name="android:textColor">@color/colorButtonText</item>
+    </style>
+</resources>

@@ -1,0 +1,26 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Dark Mode Theme -->
+    <style name="Theme.QuizApp" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Gradient Background for Dark Mode -->
+        <item name="android:windowBackground">@drawable/gradient_bg_dark</item>
+        <item name="android:navigationBarColor">#1F1F1F</item>
+        <item name="android:statusBarColor">#121212</item>
+
+        <!-- Text Colors -->
+        <item name="android:textColorPrimary">@color/colorCardBackground</item>
+        <item name="android:textColorSecondary">#BDBDBD</item>
+
+        <!-- Button Styling -->
+        <item name="android:buttonStyle">@style/QuizButtonDark</item>
+    </style>
+
+    <!-- Button Style for Dark Mode -->
+    <style name="QuizButtonDark" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/colorButton</item>
+        <item name="android:textColor">@color/colorButtonText</item>
+    </style>
+</resources>
